@@ -1,21 +1,45 @@
+body{
+    margin: 0; 
+    padding: 0;
+    border: 10px red solid;
+
+}
+
 nav{
     display:flex;
     justify-content: space-around;
 
 
 }
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow:hidden;
+    margin: 0;
+   padding: 0;
+    border: 1px solid black;
 
+
+}
+
+.photo-container{
+    flex: 0 1 calc(25% - 20px);
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.photo-container img{
+  
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ddd;
+
+}
 .home{
     border: black solid;
 }
 
-.hero{
-    border: black solid;
-    margin: 0 auto;
-    padding: 10em;
-}
-
-.hero img{
-    width: 100%;
-   max-height: 100%;
-}
