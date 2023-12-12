@@ -1,0 +1,10 @@
+nav{
+    display:flex;
+    justify-content: space-around;
+
+
+}
+
+.home{
+    border: black solid;
+}
