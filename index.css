@@ -39,10 +39,21 @@ nav{
     width: 100%;
     background-size: cover;
     background-position: center;
-    border: 1px solid #ddd;
+   
 
 }
 .home{
     border: black solid;
+}
+
+@media screen and (max-width: 600px){
+    .photo-container{
+        flex: 0 1 calc(50% - 20px);
+        margin: 10px;
+            height: 100%; /* Set a fixed height or adjust as needed */  
+    }
+    
+
+  
 }
 
