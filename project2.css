@@ -24,6 +24,9 @@ nav{
     flex: 0 1 calc(50% - 20px);
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
   
