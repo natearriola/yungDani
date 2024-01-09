@@ -18,7 +18,7 @@ nav a {
     justify-content: center;
     align-items: center;
    
-    border: black solid 2px;
+ 
 }
 .aboutP{
     margin: 2em 10em 2em 10em;
@@ -27,7 +27,7 @@ nav a {
 img{
     width: 40%; 
     justify-content: center;
-    border: red solid 2px;
+    
 
 }
 
