@@ -1,8 +1,10 @@
+
+
+
 body{
     margin: 0; 
     padding: 0;
     border: 10px red solid;
-   width: auto;
 
 }
 
@@ -12,24 +14,7 @@ nav{
 
 
 }
-
-
-.hero a{
-    display: flex;
-    justify-content: center;
-    margin: 2vh 30vh 2vh 30vh;
-    
-    
-
-}
-
-.hero img{
-    width: 50%;  
-    
-}
-
-
-.grid-container1{
+.grid-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -37,74 +22,41 @@ nav{
     margin: 0;
    padding: 0;
     border: 1px solid black;
-    align-items: start; /* Center items vertically */
+    align-items: center; /* Center items vertically */
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
 
 }
 
 .photo-container{
     flex: 0 1 calc(25% - 20px);
-   padding-top: 20px;  
+   display: flex;
+   align-items: center;
+   padding-top: 20px;
+  
+ 
+    
 }
 
 .photo-container img{
+  
     width: 100%;
-}
-
-.landscape{
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    margin: 20px 0 20px 0;
-}
-
-.landscape img{
-    width: 100%;
-}
-
-.column2{
-    display: flex;
-    flex: 0 1 calc(50% - 20px);
-    margin: 10px;
-    justify-content: center;
-
+    background-size: cover;
+    background-position: center;
+   
 
 }
-
-.column2 img{
-    margin: 10px;
-}
-
 .home{
     border: black solid;
 }
 
 @media screen and (max-width: 600px){
-
-    .hero{
-        margin: 0;
-
-    }
     .photo-container{
         flex: 0 1 calc(50% - 20px);
         margin: 10px;
             height: 100%; /* Set a fixed height or adjust as needed */  
     }
-
-    .column2{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border: 10px blue solid;
-    }
-
-    .column2 img{
-        width: 100%;
-        margin: 0;
-     
-    }
-
-
     
 
   
 }
+
