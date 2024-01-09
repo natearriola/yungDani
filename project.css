@@ -16,7 +16,6 @@ nav{
 
 .hero a{
     display: flex;
-    border: 10px black solid;
     justify-content: center;
     margin: 2vh 30vh 2vh 30vh;
     
