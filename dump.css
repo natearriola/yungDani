@@ -1,0 +1,44 @@
+body{
+    margin: 0; 
+    padding: 0;
+    border: 10px red solid;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.grid-container{      
+    display: flex;           
+    overflow: hidden;
+    flex-wrap: wrap;    
+    justify-content: space-around;
+
+
+}
+
+.photo-container{
+    flex: 0 1 calc(50% - 20px);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  
+
+}
+
+.photo-container img{
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    padding: 20px;
+    
+  
+}

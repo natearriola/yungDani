@@ -1,44 +1,51 @@
-body{
-    margin: 0; 
-    padding: 0;
-    border: 10px red solid;
-
-}
-
-nav{
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.grid-container{      
-    display: flex;           
+html{
+    height: 100vh;
     overflow: hidden;
-    flex-wrap: wrap;    
-    justify-content: space-around;
-
-
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
-.photo-container{
-    flex: 0 1 calc(50% - 20px);
+.section1::before{
+    content:"";
     width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-  
-
-}
-
-.photo-container img{
-    width: 100%;
-    height: auto; 
-    object-fit: cover;
-    aspect-ratio: 1 / 1;
-    padding: 20px;
+    height: 100%;
+    position: absolute;
+    background: url("imgs/IMG_3184.jpg") top center;
+    background-size: cover;
+    filter: blur(2px);
+    transform: translateZ(-1px) scale(2.2);
+    filter: blur(2px);
     
-  
+
+}
+
+.section1, .section2{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.section2{
+    background:rgb(68,35,19);
+
+}
+
+h1{
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 15vw;
+    color: white;
+    transform: scale(1,1.1) translate(-50%, 10%);
+
 }
