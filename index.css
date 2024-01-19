@@ -11,7 +11,7 @@ body{
 nav{
     display:flex;
     justify-content: space-around;
-    border: black solid 1px;
+   
     
  
 
@@ -27,7 +27,7 @@ nav a {
 
 }
 
-.hero{
+.hero a{
     display: flex;
     justify-content: center;
 
@@ -36,7 +36,6 @@ nav a {
 .hero img{
    
     width: 30%;
-    border: black 1px solid;
     padding-bottom: 2em;
    
   
@@ -81,27 +80,52 @@ nav a {
 
 
 .landscape{
+  
+    padding: 2em;
+    background: grey;
+    
+   
+}
+
+.landscape a{
     display: flex;
+    flex: 0 1 calc(50% - 20px);
     justify-content: center;
     align-items: start;
-    margin: 20px 0 20px 0;
+
 }
 
 .landscape img{
-    width: 100%;
+    width: 50%;
+    margin: 1em;
+
+
+    
 }
 
-.column2{
+.efrain{
+ 
+    background-color: white;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 5em;
+ 
+
+}
+
+.efrain a {
     display: flex;
-    flex: 0 1 calc(50% - 20px);
-    margin: 10px;
+    flex: 0 1 calc(25% - 20px);
     justify-content: center;
 
-
 }
 
-.column2 img{
-    margin: 10px;
+.efrain img{  
+margin: 0 1em 0 1em;
+ height: 100%;
+ width: 30%;
+ object-fit:contain;
+   
 }
 
 .home{
